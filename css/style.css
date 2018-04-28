@@ -1,7 +1,6 @@
 
-*{
-  margin:0px;
-  padding:0px;
+.con{
+  width:100%;
 }
 header{
   background-image:url("../ip2/assets/backgrounds/landing.jpg");
