@@ -56,7 +56,6 @@ header{
 margin-right: auto;
 margin-left: auto;
 width:18%;
-color:white;
 font-size:1.4em;
 padding-top:20%;
 }
@@ -213,7 +212,13 @@ border:1px solid white;
 .pintrest p{
   margin-top:5%;
 }
-
-.dinner:hover{
+.all{
+  width:100%;
+  height:200px;
+  color:white;
+}
+.all:hover{
+  background-image:none;
+  color:black;
   background-color:white;
 }
