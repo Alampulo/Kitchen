@@ -221,3 +221,36 @@ border:1px solid white;
   color:black;
   background-color:white;
 }
+.icon{
+  position:inherit;
+  color:lightgrey;
+  font-size:40px;
+  cursor:pointer;
+  margin-top:2%;
+  margin-left:2%;
+}
+.sidebar{
+  display: none;
+  position: absolute;
+  background-color:grey;
+  font-size:1.4em;
+  padding-bottom:50px;
+}
+.sidebar #header{
+  margin-left:60px;
+  margin-right:10px;
+  font-size:1.4em;
+}
+.sidebar #close{
+  cursor: pointer;
+}
+.sidebar a{
+  margin-left:60px;
+  text-decoration: none;
+  color:black;
+  text-align: center;
+  margin-right:60px;
+}
+.sidebar a:hover{
+  color:white;
+}
