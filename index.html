@@ -6,21 +6,21 @@
     <link rel="stylesheet"  type="text/css" href="css/css/bootstrap.min.css"/>
     <link rel="stylesheet"  type="text/css" href="css/style.css"/>
     <link rel="icon" href="ip2/assets/logoBig.png"/>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118281238-1"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118281238-1"></script>
     <title>Anitas Kitchen</title>
   </head>
   <body>
     <div class="container-fluid">
       <header class="notop">
         <!--head-->
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
         <span id="header">Pages</span>
-         <span style="font-size:50px;"id="close">&times;</span><br/>
+         <span style="font-size:50px;" id="close" onclick="doClose()">&times;</span><br/>
         <a href="#">Contacts</a><br/>
         <a href="#">Events</a><br/>
         <a href="#">Menu</a>
         </div>
-        <span class="icon">&#9776;</span>
+        <span class="icon" onclick="doOpen()">&#9776;</span>
         <div class="head">
           <!--images-->
        <img src="ip2/assets/logoBig.png" alt="logo">
@@ -115,15 +115,19 @@
            </div>
            <div class="items row">
              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-               <img src="ip2/assets/fastfood/chickenBurger.jpg" alt="chickenburger" width="100%"/>
+               <span style="margin-top:20%;color:orange;font-size:1.4em;margin-right:5%" class="glyphicon glyphicon-chevron-left" align="left"></span>
+               <img src="ip2/assets/fastfood/chickenBurger.jpg" alt="chickenburger" width="85%" align="right"/>
+               <br clear="left"/>
                <p>Chicken Burger</p>
              </div>
              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <img src="ip2/assets/fastfood/beefBurger.jpg" alt="beefburger" width="100%"/>
+                <img src="ip2/assets/fastfood/beefBurger.jpg" alt="beefburger" width="85%"/>
                 <p>Beef Burger</p>
              </div>
              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <img src="ip2/assets/fastfood/chickenPizza.jpg" alt="chickenpizza" width="100%"/>
+               <span style="margin-top:20%;color:orange;font-size:1.4em;margin-left:5%" class="glyphicon glyphicon-chevron-right" align="right"></span>
+                <img src="ip2/assets/fastfood/chickenPizza.jpg" alt="chickenpizza" width="85%" align="left"/>
+                <br clear="right"/>
                 <p>Chicken Pizza</p>
              </div>
            </div>
@@ -139,10 +143,12 @@
           <p>Great foods menu is awsome there are foods not only
           great but also in the right price.I'll highly recommend them.</p>
           <div class="row">
-            <div style="margin-left:35%;margin-right:35%;width:30%;">
+          <div style="margin-left:30%;margin-right:30%;width:40%; "id="glyorange">
+              <span class="glyphicon glyphicon-chevron-left"></span>
                <img src="ip2/assets/customers/p1.png" alt="mary"/>
                <img src="ip2/assets/customers/p2.png" alt="james"/>
                <img src="ip2/assets/customers/p3.png" alt="john"/>
+               <span class="glyphicon glyphicon-chevron-right"></span>
              </div>
           </div>
         </div>
@@ -164,8 +170,10 @@
     <div class="last row">
        <p style="font-weight:bold">Get our daily food items delivered to your email</p>
        <div style="margin-left:35%;margin-right:35%;width:30%">
-       <input type="email" placeholder="Your Email">
-       <button>Subscribe</button>
+           <form action="https://github.us18.list-manage.com/subscribe/post?u=fbb5d325a9e6711a8bd2a5454&amp;id=aef519c156" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+       <input type="email" placeholder="Your Email" name="EMAIL" class="required email" id="mce-EMAIL">
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </form>
      </div>
     </div>
     <div class="lastly row">
@@ -181,13 +189,22 @@
     </div>
   </div>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118281238-1"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/script.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
     <script>
 window.dataLayer = window.dataLayer || [];
  function gtag(){dataLayer.push(arguments);}
  gtag('js', new Date());
  gtag('config', 'UA-118281238-1');
     </script>
+    <script src="js/script.js"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+    (function($) {window.fnames = new Array();
+      window.ftypes = new Array();fnames[0]='EMAIL';
+      ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';
+      fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';
+      ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';
+    }(jQuery));
+      var $mcj = jQuery.noConflict(true);</script>
   </body>
 </html>

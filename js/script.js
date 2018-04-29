@@ -1,10 +1,7 @@
-$(document).ready(function(){
+function doClose() {
+  document.getElementById('sidebar').style.visibility="hidden";
+}
 
-$('#close').click(function(){
-  $('.sidebar').css('display','none');
-});
-
-$('.icon').click(function(){
-  $('.sidebar').show();
-});
-});
+function doOpen() {
+  document.getElementById('sidebar').style.visibility="visible";
+}
