@@ -102,7 +102,7 @@ a{
   width:160px;
 }
 .orange{
-  border-color: orange;
+  border-color:#F15A29;
 }
 .images2{
   width:60%;
@@ -197,7 +197,7 @@ border:1px solid white;
 }
 
 .lastly{
-  background-color:orange;
+  background-color:#F15A29;
   padding:5%;
 }
 .pintrest{
@@ -222,7 +222,6 @@ border:1px solid white;
   background-color:white;
 }
 .icon{
-  position:inherit;
   color:lightgrey;
   font-size:40px;
   cursor:pointer;
@@ -231,7 +230,7 @@ border:1px solid white;
 }
 .sidebar{
   visibility: hidden;
-  position: absolute;
+  position:absolute;
   background-color:grey;
   font-size:1.4em;
   padding-bottom:50px;

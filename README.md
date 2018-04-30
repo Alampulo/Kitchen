@@ -19,6 +19,7 @@ To view this site you require internet and a web browser.
 * HTML
 * CSS
 * Google Analytics
+* Mailchimp API
 # Link To Live Site
 [My Website](https://magz8984.github.io/Kitchen/)
 
