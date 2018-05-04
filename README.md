@@ -2,9 +2,9 @@
 
 ## Description
 
-This is a site i redid from scratch.
-To help me understand more about
-creation of a website
+The site is helps customers  see what we offer as a restaurant
+from our meals to services.The site is also helps customers subscribe to our email lists
+I should be able to monitor progress of the site through goggle analytics.
 
 ## BY
 
@@ -12,7 +12,10 @@ Collins Magondu Muthinja
 
 ## Instructions
 
-To view this site you require internet and a web browser.
+In order for the site to be of use make sure you have a javascript enabled browser
+and if you have note subscribed to my mailchimp list kindly subscribe.Whatever images or text is there
+should not be reused somewhere else.
+Do not subscribe more than once
 
 ## Tech Used
 * Javascript

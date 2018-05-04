@@ -256,3 +256,8 @@ border:1px solid white;
 #glyorange span{
   color:orange;
 }
+
+#logobig:hover{
+  text-transform:capitalize;
+  cursor:pointer;
+}
